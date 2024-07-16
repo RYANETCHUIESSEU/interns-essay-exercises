@@ -1,5 +1,9 @@
+
+
 Une Base de Données : est une structure organisé permettant le stockage et la gestion efficace des données.
-On distingue les bases de données:-relationelle (SQL,Oracle,My SQL,PostGre SQL)
+On distingue les bases de données:
+
+                                    -relationelle (SQL,Oracle,My SQL,PostGre SQL)
                                     -No SQL:(Mongo DB)
                                     -BD Multimodele:Mark Logic,Arrango DB
                                     -New SQL
@@ -8,7 +12,7 @@ On distingue les bases de données:-relationelle (SQL,Oracle,My SQL,PostGre SQL)
         Avantages:-sécurisé
         Inconvénient:- temps de latence considerable
 
-                    BD No SQL: sont des systeme de gestion de données qui fonctionne  sans jointures   et sans modele préetablie .
+                BD No SQL: sont des systeme de gestion de données qui fonctionne sans jointures   et sans modele préetablie .
         Avantages:-gestion de grande quantité de données
                   -faible temps de latence
 
@@ -28,5 +32,27 @@ On distingue les bases de données:-relationelle (SQL,Oracle,My SQL,PostGre SQL)
         avantages: - jointures entre les modéles
                     -possibilités de gerer plusieurs modeles
         Inconvénients:- cout
+
+        Partie2:
+
+        1-SELECT *
+        FROM EMPLOYEE
+        WHERE salary > 10000;
+
+        2-SELECT employee_id,first_Name,manager_name
+
+        3- 
+
+        4-SELECT job_id,job_title,department_name
+        FROM EMPLOYES
+        INNER JOIN DEPARTEMENTS ON  e.department_id=d. department_id;
+
+        5- SELECT *
+        FROM EMPLOYEE 
+        WHERE hire_date >=
+
+        8- SELECT *
+        FROM EMPLOYEES
+        WHERE manager_id IS NULL;
         
             
